@@ -1,5 +1,7 @@
 package rocks.zipcode;
 
+import java.awt.event.AdjustmentEvent;
+
 /**
  * rocks.zipcode.PayDay
  *
@@ -47,9 +49,10 @@ public class PayDay {
         double deduction = grossPay * deduct;
         double netPay = grossPay - deduction;
 
-        String payString = String.format("%s %.2f %.2f %.2f", n, grossPay, deduct, netPay);
 
-        return payString;
+         return String.format("%s %.2f %.2f %.2f", n, grossPay, deduction, netPay);
+
+
     }
 
 
