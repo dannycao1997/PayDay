@@ -96,8 +96,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PayDayTest.pay" />
-        <item itemvalue="Application.PayDay" />
         <item itemvalue="JUnit.PayDayTest" />
+        <item itemvalue="Application.PayDay" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,12 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
           <line>12</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

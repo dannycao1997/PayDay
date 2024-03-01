@@ -44,10 +44,10 @@ public class PayDay {
      */
     public String pay(String n, double rate, double worked, double deduct) {
         double grossPay = rate * worked;
-        double deductions = grossPay * rate;
-        double netPay = grossPay - deductions;
+        double deduction = grossPay * deduct;
+        double netPay = grossPay - deduction;
 
-        String payString = String.format("%s %.2f %.2f %.2f", n, grossPay, deductions, netPay);
+        String payString = String.format("%s %.2f %.2f %.2f", n, grossPay, deduct, netPay);
 
         return payString;
     }

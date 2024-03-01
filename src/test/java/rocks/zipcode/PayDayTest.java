@@ -15,7 +15,6 @@ public class PayDayTest {
         PayDay payDay2 = new PayDay();
         java.lang.String string2 = payDay2.pay("Dolio", 23.0, 12.0, 0.05);
         assertEquals("Dolio 215.00 10.75 204.25", string2);
-
         PayDay payDay3 = new PayDay();
         java.lang.String string3 = payDay3.pay("Karen", 22.0, 12.0, 0.05);
         assertEquals("Karen 215.00 10.75 204.25", string3);
